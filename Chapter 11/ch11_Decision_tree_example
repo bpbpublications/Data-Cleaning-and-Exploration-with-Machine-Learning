@@ -1,0 +1,28 @@
+# Import required libraries
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.model_selection import train_test_split
+
+# Example email data and labels
+emails = ["Win a free vacation", "Meeting agenda attached", "Special offer, buy now"]
+labels = [1, 0, 1]  # 1=spam, 0=not spam
+
+# Convert emails to numeric features
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(emails)
+
+# Split the dataset
+X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.33, random_state=42)
+
+# Train the decision tree classifier
+classifier = DecisionTreeClassifier()
+classifier.fit(X_train, y_train)
+
+# Predict and evaluate
+y_pred = classifier.predict(X_test)
+
+# Output evaluation metrics
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Precision:", precision_score(y_test, y_pred))
+print("Recall:", recall_score(y_test, y_pred))

@@ -1,0 +1,69 @@
+#Chapter 4
+numpy
+pandas
+matplotlib
+
+#Chapter 5
+pandas
+scikit-learn
+nltk
+
+#Chapter 6
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+
+#Chapter 7
+scikit-learn
+pandas
+seaborn
+matplotlib
+nltk
+
+#Chapter 9
+numpy
+scikit-learn
+pandas
+matplotlib
+
+#Chapter 10
+matplotlib
+pandas
+scikit-learn
+
+#Chapter 11
+scikit-learn
+pandas
+matplotlib
+
+#Chapter 12
+numpy
+scikit-learn
+matplotlib
+pandas
+
+#Chapter 13
+scikit-learn
+yellowbrick
+pandas
+hyperopt
+
+#Chapter 14
+openai
+langchain
+langchain-community
+langchain-openai
+cachetools
+numpy
+scikit-learn
+
+#Chapter 15
+transformers
+torch
+datasets
+
+#Chapter 16
+scikit-learn
+pandas

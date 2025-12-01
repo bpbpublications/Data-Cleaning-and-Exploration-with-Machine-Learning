@@ -1,0 +1,7 @@
+age,income,gender,region,purchased,date,close,volume,tweet
+25,50000,male,north,1,2023-01-01,150.5,10000,"I loved the product, but delivery was disappointing!"
+45,70000,female,south,0,2023-01-02,152.3,15000,"The service was excellent and fast."
+,85000,male,east,1,2023-01-03,,20000,"Product quality could be better."
+35,,female,west,0,2023-01-04,148.9,13000,"I'm satisfied with the purchase."
+50,120000,male,north,1,2023-01-05,153.7,,"Will buy again, great value!"
+40,90000,female,south,0,,149.5,12000,"Late delivery but good product quality."
